@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script defer src="main.js"></script>
-    <title>D3.js Price and Date Graph</title>
+    <title>GRAPH WEB</title>
 </head>
+
 <body>
     <div class="container">
-        <svg id="priceDateGraph"></svg>
+        <div class="chart">
+            <canvas id="barchart" width="300" height="300"></canvas>
+        </div>
+        <div class="chart">
+            <canvas id="doughnut" width="300" height="300"></canvas>
+        </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.mjs" type="module"></script>
+    <script src="chart1.js" type="module"></script>
+    <script src="chart2.js" type="module"></script>
 </body>
+
 </html>
