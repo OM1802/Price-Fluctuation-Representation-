@@ -1,1 +1,3 @@
 details of the project:
+
+this web helps show csv or raw data in the form of graph using chart.js
